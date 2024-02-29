@@ -1,0 +1,68 @@
+name: un1que_new
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter_localizations:
+    sdk: flutter
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_launcher_icons: ^0.12.0
+  ##flutter_native_splash: ^2.3.7
+  carousel_slider: ^4.2.1
+  google_fonts: ^6.1.0
+  fluttertoast: ^8.2.1
+  dartz: ^0.10.1
+  dropdown_search: ^5.0.6
+  drift: ^2.15.0
+  sqlite3_flutter_libs: ^0.5.0
+  path_provider: ^2.0.0
+  path: ^1.8.3
+  flutter_bloc: ^8.1.4
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  matcher: ^0.12.16
+  drift_dev: ^2.15.0
+  build_runner: ^2.4.8
+  hive_generator: ^2.0.1
+
+flutter:
+  assets:
+    - assets/pngs/body_type/
+    - assets/pngs/dashboard/
+    - assets/pngs/muscle_group/male/
+    - assets/pngs/muscle_group/female/
+    - assets/pngs/others/
+    - assets/svgs/dashboard/
+    - assets/svgs/logo/
+    - assets/svgs/others/
+    - assets/pngs/splash/
+    - lib/i18n/
+  uses-material-design: true
+
+#flutter_native_splash:
+#  background_image: "assets/pngs/splash/splash.png"
+#  android_12:
+#    background_image_android: "assets/pngs/splash/splash.png"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/pngs/logo/android-icon.png"
+  image_path_ios: "assets/pngs/logo/ios-icon.png"
+  remove_alpha_ios: true
